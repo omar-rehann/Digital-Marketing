@@ -1,0 +1,239 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+section.grey {
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+section.grey .continer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section.grey .continer .text h6 {
+    color: grey;
+}
+
+section.grey .continer .text h2,
+section.grey .continer .text h1 {
+    color: black;
+    font-weight: bold;
+}
+
+section.grey .title {
+    max-width: 800px;
+    padding: 15px;
+    font-weight: bold;
+    line-height: 5;
+}
+
+section.grey .title h6 {
+    line-height: 2;
+}
+
+section.grey .content {
+    margin: 15px 0px;
+}
+
+
+/* end grey */
+
+
+/* start background  */
+
+section.background {
+    background-image: url(img/ab.jpg);
+    background-size: cover;
+    height: 60vh;
+    position: relative;
+}
+
+section.background .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(0, 0, 0, 50%);
+    width: 80%;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+/* end background */
+
+
+/* start provide */
+
+section.provide {
+    background-color: #ddd;
+    padding: 10px;
+}
+
+
+/* end provide */
+
+
+/* start  accelerator */
+
+section.accelerator {
+    padding: 10px;
+    padding: 10px;
+}
+
+section.accelerator .row {
+    padding: 10px;
+}
+
+section.accelerator .progress span {
+    background-color: red;
+    height: 100%;
+    transition: 2s;
+}
+
+
+/* end accelerator */
+
+
+/* start team */
+
+section.team {
+    padding: 10px;
+    background-color: #ddd;
+}
+
+section.team .content .box {
+    background-color: white;
+    margin: 10px 10px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+section.team .content .after-box {
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 3;
+    color: white;
+    font-weight: bold;
+    left: -700px;
+    transition: 2s;
+}
+
+section.team .content .box:hover .after-box {
+    left: 0px;
+}
+
+section.team .content .box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/* end team */
+
+
+/* start new */
+
+section.new {
+    background-color: #ddd;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+section.new .row input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    background-color: white;
+}
+
+section.new .row button {
+    background-color: blue;
+    padding: 10px;
+    border: none;
+    margin: 10px 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+
+/* end new */
+
+
+/* start footer */
+
+.footer {
+    background-color: black;
+    min-height: 50vh;
+    padding: 40px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    color: white;
+}
+
+.footer .box li a {
+    color: white;
+    list-style-type: none;
+    transition: 0.3s;
+}
+
+.footer .box li a:hover {
+    color: #2196f3;
+}
+
+.footer .box i {
+    font-size: 25px;
+    margin-right: 4px;
+    margin-left: 5px;
+}
+
+.footer .box img {
+    max-width: 80px;
+    border-radius: 10px;
+    flex-wrap: nowrap;
+    margin: 10px 10px;
+}
+
+.footer .box {
+    line-height: 2;
+}
+
+.footer .box li {
+    list-style-type: none;
+    border-bottom: solid 1px #777;
+}
+
+.footer .box li a i {
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+
+/* end footer */
